@@ -4,7 +4,7 @@ collection: teaching
 type: "Lecture"
 permalink: /teaching/2024-summer-teaching
 venue: "MIT Sloan"
-date: 2024-07
+date: 2024-07-01
 location: "Cambridge, MA"
 ---
 
