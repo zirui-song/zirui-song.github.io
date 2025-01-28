@@ -10,6 +10,7 @@ author_profile: true
 
 {% include base_path %}
 
+<!--
 New style rendering if paper categories are defined
 {% if site.paper_category %}
   {% for category in site.paper_category %}
@@ -30,10 +31,9 @@ New style rendering if paper categories are defined
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
+-->
 
-<!--
 Old style rendering
 {% for post in site.research reversed %}
   {% include archive-single.html %}
 {% endfor %}
--->
