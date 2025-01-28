@@ -13,12 +13,8 @@ Hello! My name is Zirui Song. I am a second-year PhD student at MIT Sloan. Previ
 
 My research interests are banking and private debt.  
 
-## Working Papers and Work in Progress
-
-### Working Papers
-- **Paper Title 1**: A brief description of the first working paper.
-- **Paper Title 2**: A brief description of the second working paper.
-
 ### Work in Progress
-- **Project Title 1**: A brief description of the first ongoing project.
-- **Project Title 2**: A brief description of the second ongoing project.
+- **Tax Shields Under Siege: The Effect of Limiting Interest Deductibility on Commercial Lending Negotiations**  
+  *Authors: Edward L. Maydew, Matthew A. Phillips, Zirui Song
+- **Information Covenants of Nonbank Direct Lending**  
+  *Authors: Zirui Song
