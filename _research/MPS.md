@@ -6,7 +6,7 @@ collection: papers
 date: 2025-01-27
 #venue: 'GitHub Journal of Bugs'
 paperurl: 'http://zirui-song.github.io/files/MPS.pdf'
-citation: 'Maydew, E. L., Phillips, M. A., & Song, Z. (2024). Tax Shields Under Siege: The Effect of Limiting Interest Deductibility on Commercial Lending Negotiations. Working paper. &quot;Tax Shields under Siege.&quot; <i>Working paper</i>.'
+#citation: 'Maydew, E. L., Phillips, M. A., & Song, Z. (2024). Tax Shields Under Siege: The Effect of Limiting Interest Deductibility on Commercial Lending Negotiations. Working paper. &quot;Tax Shields under Siege.&quot; <i>Working paper</i>.'
 authors:
     - E. L. Maydew
     - M. A. Phillips
