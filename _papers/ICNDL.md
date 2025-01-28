@@ -1,0 +1,23 @@
+---
+title: "Information Covenants of Nonbank Direct Lending"
+collection: papers
+category: manuscripts
+#permalink: /publication/2015-10-01-paper-title-number-3
+excerpt: 'This paper is about the information covenants of nonbank direct lending.'
+date: 2024-12-15
+#venue: 'Journal 1'
+#slidesurl: 'http://academicpages.github.io/files/ICNDL_20241215.pdf'
+paperurl: 'http://academicpages.github.io/files/ICNDL_20241215.pdf'
+citation: 'Song, Zirui. (2024). &quot;Information Covenants of Nonbank Direct Lending.&quot; <i>Working Paper </i>.'
+---
+
+This paper examines the monitoring practices of nonbank direct lenders by analyzing the
+use of information covenants in loan contracts. Analyzing 688 hand-collected nonbank direct
+loans, I find that nonbank lenders request firms’ accounting information more often than banks
+in the syndicated loan market. Significant heterogeneity exists among nonbank lenders: private
+credit lenders employ information covenants more frequently than other nonbanks such as finance
+companies, while larger nonbank lenders and those with specialized industry expertise are more
+likely to incorporate lender meetings into their monitoring practices. These results suggest that
+nonbank direct lenders actively monitor borrowers through frequent information requests. This
+study highlights the critical role of accounting information in nonbank lending and sheds light on
+how nonbanks use information covenants to monitor their borrowers.
