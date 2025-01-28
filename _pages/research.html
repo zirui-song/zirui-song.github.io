@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Papers"
-permalink: /papers/
+title: "Research"
+permalink: /research/
 author_profile: true
 ---
 
@@ -11,7 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if paper categories are defined -->
+<!--
+New style rendering if paper categories are defined
 {% if site.paper_category %}
   {% for category in site.paper_category %}
     {% assign title_shown = false %}
@@ -31,3 +32,8 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
+-->
+
+{% for post in site.papers reversed %}
+  {% include archive-single.html %}
+{% endfor %}

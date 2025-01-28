@@ -1,11 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "TA for Financial Accounting"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Lecture"
+permalink: /teaching/2024-summer-teaching
+venue: "MIT Sloan"
+date: 2024-07
+location: "Cambridge, MA"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
