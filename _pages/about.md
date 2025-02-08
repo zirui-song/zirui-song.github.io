@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<div class="smaller-text">
-
 ## Introduction
 
 Hello! My name is Zirui Song. I am a second-year PhD student at MIT Sloan. Previously I worked at Chicago Booth after graduating from the University of Chicago with degrees in Mathematics, Economics (Honors), and Statistics.  
@@ -20,5 +18,3 @@ My research interests are Banking, Debt Contracting, and Corporate Finance.
   *Authors: Edward L. Maydew, Matthew A. Phillips, Zirui Song*
 - **Information Covenants of Nonbank Direct Lending** (**Draft coming soon**)  
   *Authors: Zirui Song*
-
-</div>
