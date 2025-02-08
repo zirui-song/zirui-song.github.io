@@ -24,9 +24,4 @@ Languages
 ======
 * Python, R, Stata, Matlab, Latex
 
-Papers
-======
-  <ul>{% for post in site.papers reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
  
