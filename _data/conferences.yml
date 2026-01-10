@@ -1,9 +1,9 @@
 # Academic Conference Data
 # This file is auto-updated by the conference scraper
-# Last updated: 2026-01-09
+# Last updated: 2026-01-10
 
 metadata:
-  last_updated: "2026-01-09T00:00:00Z"
+  last_updated: "2026-01-10T00:00:00Z"
   scraper_version: "1.0.0"
   total_conferences: 20
 
@@ -37,14 +37,15 @@ conferences:
     category: "major"
     year: 2027
     conference_dates:
-      start: "2027-01-08"
-      end: "2027-01-10"
-    location: "Chicago, IL"
+      start: "2027-01-03"
+      end: "2027-01-05"
+    location: "Washington, DC"
     submission_deadline: "2026-03-16"
     website: "https://www.afajof.org/annual-meeting"
-    status: "submissions_open"
+    status: "upcoming"
+    notes: "Submission deadline TBA (expected mid-March 2026)"
     source: "manual"
-    last_verified: "2026-01-09"
+    last_verified: "2026-01-10"
 
   - name: "WFA Annual Meeting 2026"
     short_name: "WFA"
@@ -54,14 +55,15 @@ conferences:
     conference_dates:
       start: "2026-06-21"
       end: "2026-06-24"
-    location: "Park City, UT"
-    submission_deadline: "2026-02-01"
-    notification_date: "2026-04-01"
+    location: "Denver, CO"
+    venue: "Hyatt Regency Denver"
+    submission_deadline: "2025-11-18"
+    notification_date: "2026-03-31"
     website: "https://westernfinance.org/"
-    status: "submissions_open"
-    notes: "Paper submission via SSRN"
+    status: "submissions_closed"
+    notes: "$100 submission fee. Multiple best paper awards available."
     source: "manual"
-    last_verified: "2026-01-09"
+    last_verified: "2026-01-10"
 
   - name: "EFA Annual Meeting 2026"
     short_name: "EFA"
@@ -71,13 +73,15 @@ conferences:
     conference_dates:
       start: "2026-08-19"
       end: "2026-08-22"
-    location: "Milan, Italy"
-    submission_deadline: "2026-02-15"
-    notification_date: "2026-05-15"
-    website: "https://www.european-finance.org/"
+    location: "Ghent, Belgium"
+    venue: "Ghent University & Vlerick Business School"
+    submission_deadline: "2026-02-01"
+    notification_date: "2026-05-01"
+    website: "https://efa2026.efa-meetings.org/"
     status: "submissions_open"
+    notes: "53rd EFA Annual Meeting. Members get one free submission."
     source: "manual"
-    last_verified: "2026-01-09"
+    last_verified: "2026-01-10"
 
   - name: "SFS Cavalcade North America 2026"
     short_name: "SFS"
@@ -86,14 +90,15 @@ conferences:
     year: 2026
     conference_dates:
       start: "2026-05-18"
-      end: "2026-05-20"
-    location: "TBD"
-    submission_deadline: "2026-01-15"
-    notification_date: "2026-03-15"
-    website: "https://sfs.org/sfs-cavalcade/"
-    status: "submissions_open"
+      end: "2026-05-21"
+    location: "Charlottesville, VA"
+    venue: "Darden School of Business, University of Virginia"
+    submission_deadline: "2025-12-11"
+    website: "https://sfs.org/sfs-cavalcade-north-america-2026/"
+    status: "submissions_closed"
+    notes: "$75 submission fee. PhD student fee waiver available. Dual submission to RCFS/RAPS."
     source: "manual"
-    last_verified: "2026-01-09"
+    last_verified: "2026-01-10"
 
   - name: "FIRS Annual Conference 2026"
     short_name: "FIRS"
@@ -183,14 +188,14 @@ conferences:
     conference_dates:
       start: "2026-08-01"
       end: "2026-08-05"
-    location: "New York, NY"
+    location: "Las Vegas, NV"
     submission_deadline: "2026-02-15"
     notification_date: "2026-05-01"
     website: "https://aaahq.org/Meetings"
     status: "upcoming"
-    notes: "Largest accounting conference. Multiple sections."
+    notes: "AAA Global Connect. Largest accounting conference. Multiple sections."
     source: "manual"
-    last_verified: "2026-01-09"
+    last_verified: "2026-01-10"
 
   - name: "FARS Midyear Meeting 2026"
     short_name: "FARS"
