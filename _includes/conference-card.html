@@ -1,0 +1,92 @@
+{% assign conf = include.conference %}
+
+<div class="conference-card"
+     data-field="{{ conf.field }}"
+     data-status="{{ conf.status }}"
+     data-category="{{ conf.category | default: 'major' }}">
+
+  <div class="conference-card__header">
+    <span class="conference-card__badge conference-card__badge--{{ conf.field }}">
+      {{ conf.field | capitalize }}
+    </span>
+    <span class="conference-card__short-name">{{ conf.short_name }}</span>
+  </div>
+
+  <h3 class="conference-card__title">
+    {% if conf.website %}
+    <a href="{{ conf.website }}" target="_blank" rel="noopener">
+      {{ conf.name }}
+      <i class="fas fa-external-link-alt" style="font-size: 0.7em;"></i>
+    </a>
+    {% else %}
+    {{ conf.name }}
+    {% endif %}
+  </h3>
+
+  <div class="conference-card__details">
+    {% if conf.conference_dates.start %}
+    <div class="conference-card__row">
+      <i class="fas fa-calendar"></i>
+      <span>
+        {{ conf.conference_dates.start | date: "%B %d" }}
+        {% if conf.conference_dates.end %}
+          - {{ conf.conference_dates.end | date: "%B %d, %Y" }}
+        {% else %}
+          , {{ conf.conference_dates.start | date: "%Y" }}
+        {% endif %}
+      </span>
+    </div>
+    {% endif %}
+
+    {% if conf.location %}
+    <div class="conference-card__row">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>{{ conf.location }}</span>
+    </div>
+    {% endif %}
+
+    {% if conf.submission_deadline %}
+    <div class="conference-card__row
+                {% if conf.status == 'submissions_open' %}conference-card__deadline--soon{% endif %}
+                {% if conf.status == 'submissions_closed' %}conference-card__deadline--passed{% endif %}">
+      <i class="fas fa-clock"></i>
+      <span>
+        <strong>Submission Deadline:</strong>
+        {{ conf.submission_deadline | date: "%B %d, %Y" }}
+        {% if conf.submission_deadline_time %}
+          at {{ conf.submission_deadline_time }}
+        {% endif %}
+        {% if conf.status == 'submissions_open' %}
+          <span class="days-remaining">(Open)</span>
+        {% elsif conf.status == 'submissions_closed' %}
+          <span class="deadline-status">(Closed)</span>
+        {% endif %}
+      </span>
+    </div>
+    {% endif %}
+
+    {% if conf.notification_date %}
+    <div class="conference-card__row">
+      <i class="fas fa-envelope"></i>
+      <span><strong>Notification:</strong> {{ conf.notification_date | date: "%B %d, %Y" }}</span>
+    </div>
+    {% endif %}
+  </div>
+
+  {% if conf.notes %}
+  <div class="conference-card__notes">
+    {{ conf.notes }}
+  </div>
+  {% endif %}
+
+  <div class="conference-card__footer">
+    <span class="conference-card__source">
+      Last verified: {{ conf.last_verified | date: "%b %d, %Y" }}
+    </span>
+    {% if conf.cfp_url %}
+    <a href="{{ conf.cfp_url }}" class="conference-card__cfp-link" target="_blank" rel="noopener">
+      Call for Papers <i class="fas fa-external-link-alt"></i>
+    </a>
+    {% endif %}
+  </div>
+</div>

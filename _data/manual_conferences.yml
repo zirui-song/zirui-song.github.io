@@ -1,0 +1,52 @@
+# Manual Conference Entries
+# Use this file for conferences that cannot be reliably scraped
+# These entries are merged with scraped data (manual takes precedence)
+
+conferences:
+  - name: "HARC 2026"
+    short_name: "HARC"
+    field: "accounting"
+    category: "specialized"
+    year: 2026
+    conference_dates:
+      start: "2026-03-20"
+      end: "2026-03-21"
+    location: "TBD"
+    submission_deadline: "2025-11-15"
+    website: null
+    status: "submissions_closed"
+    notes: "Hawaii Accounting Research Conference. Submission via email to organizers."
+    source: "manual"
+    last_verified: "2026-01-09"
+
+  - name: "Lone Star Accounting Research Conference 2026"
+    short_name: "Lone Star"
+    field: "accounting"
+    category: "regional"
+    year: 2026
+    conference_dates:
+      start: "2026-02-27"
+      end: "2026-02-28"
+    location: "Texas"
+    submission_deadline: "2025-10-01"
+    website: null
+    status: "submissions_closed"
+    notes: "Joint conference of Texas accounting programs."
+    source: "manual"
+    last_verified: "2026-01-09"
+
+  - name: "Trans-Atlantic Doctoral Conference 2026"
+    short_name: "TADC"
+    field: "finance"
+    category: "specialized"
+    year: 2026
+    conference_dates:
+      start: "2026-05-15"
+      end: "2026-05-16"
+    location: "London, UK"
+    submission_deadline: "2026-02-15"
+    website: "https://www.lbs.edu/"
+    status: "upcoming"
+    notes: "PhD student focused. London Business School."
+    source: "manual"
+    last_verified: "2026-01-09"

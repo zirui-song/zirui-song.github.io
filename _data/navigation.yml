@@ -19,4 +19,7 @@ main:
   #  url: /research/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+
+  - title: "Conferences"
+    url: /conferences/
