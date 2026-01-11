@@ -1,324 +1,341 @@
-# Academic Conference Data
-# This file is auto-updated by the conference scraper
-# Last updated: 2026-01-10
-
 metadata:
-  last_updated: "2026-01-10T00:00:00Z"
-  scraper_version: "1.0.0"
-  total_conferences: 20
-
+  last_updated: '2026-01-11T06:38:45.388434+00:00'
+  scraper_version: 1.0.0
+  total_conferences: 21
 conferences:
-  # ============================================================================
-  # FINANCE CONFERENCES
-  # ============================================================================
+- name: MFA Annual Meeting 2026
+  short_name: MFA
+  field: finance
+  category: regional
+  year: 2026
+  conference_dates:
+    start: '2026-03-12'
+    end: '2026-03-14'
+  location: Chicago, IL
+  venue: Radisson Blu Aqua Hotel
+  submission_deadline: '2025-09-05'
+  website: https://www.midwestfinance.org/2026-annual-meeting
+  status: submissions_closed
+  notes: 'Keynotes: Raghuram Rajan (Chicago) and Itay Goldstein (Penn)'
+  source: manual
+  last_verified: '2026-01-11'
+- name: FARS Midyear Meeting 2026
+  short_name: FARS
+  field: accounting
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-01-22'
+    end: '2026-01-24'
+  location: San Antonio, TX
+  venue: Intercontinental Hotel
+  submission_deadline: '2025-09-15'
+  website: https://aaahq.org/Meetings/2026/FARS-Midyear-Meeting
+  status: submissions_closed
+  notes: Financial Accounting and Reporting Section. Keynote panel on Risk and Resilience
+    in Research Careers.
+  source: manual
+  last_verified: '2026-01-11'
+- name: Lone Star Accounting Research Conference 2026
+  short_name: Lone Star
+  field: accounting
+  category: regional
+  year: 2026
+  conference_dates:
+    start: '2026-02-27'
+    end: '2026-02-28'
+  location: Texas
+  submission_deadline: '2025-10-01'
+  website: null
+  status: submissions_closed
+  notes: Joint conference of Texas accounting programs.
+  source: manual
+  last_verified: '2026-01-11'
+- name: HARC 2026
+  short_name: HARC
+  field: accounting
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-03-20'
+    end: '2026-03-21'
+  location: TBD
+  submission_deadline: '2025-11-15'
+  website: null
+  status: submissions_closed
+  notes: Hawaii Accounting Research Conference. Submission via email to organizers.
+  source: manual
+  last_verified: '2026-01-11'
+- name: WFA Annual Meeting 2026
+  short_name: WFA
+  field: finance
+  category: major
+  year: 2026
+  conference_dates:
+    start: null
+    end: null
+  location: 'Info
 
-  - name: "AFA Annual Meeting 2026"
-    short_name: "AFA"
-    field: "finance"
-    category: "major"
-    year: 2026
-    conference_dates:
-      start: "2026-01-03"
-      end: "2026-01-05"
-    location: "Philadelphia, PA"
-    venue: "Loews Philadelphia Hotel"
-    submission_deadline: "2025-03-17"
-    notification_date: "2025-08-15"
-    website: "https://www.afajof.org/annual-meeting"
-    cfp_url: "https://www.afajof.org/call-for-papers"
-    status: "submissions_closed"
-    notes: "Joint with ASSA. PhD poster session available."
-    source: "manual"
-    last_verified: "2026-01-09"
-
-  - name: "AFA Annual Meeting 2027"
-    short_name: "AFA"
-    field: "finance"
-    category: "major"
-    year: 2027
-    conference_dates:
-      start: "2027-01-03"
-      end: "2027-01-05"
-    location: "Washington, DC"
-    submission_deadline: "2026-03-16"
-    website: "https://www.afajof.org/annual-meeting"
-    status: "upcoming"
-    notes: "Submission deadline TBA (expected mid-March 2026)"
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "WFA Annual Meeting 2026"
-    short_name: "WFA"
-    field: "finance"
-    category: "major"
-    year: 2026
-    conference_dates:
-      start: "2026-06-21"
-      end: "2026-06-24"
-    location: "Denver, CO"
-    venue: "Hyatt Regency Denver"
-    submission_deadline: "2025-11-18"
-    notification_date: "2026-03-31"
-    website: "https://westernfinance.org/"
-    status: "submissions_closed"
-    notes: "$100 submission fee. Multiple best paper awards available."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "EFA Annual Meeting 2026"
-    short_name: "EFA"
-    field: "finance"
-    category: "major"
-    year: 2026
-    conference_dates:
-      start: "2026-08-19"
-      end: "2026-08-22"
-    location: "Ghent, Belgium"
-    venue: "Ghent University & Vlerick Business School"
-    submission_deadline: "2026-02-01"
-    notification_date: "2026-05-01"
-    website: "https://efa2026.efa-meetings.org/"
-    status: "submissions_open"
-    notes: "53rd EFA Annual Meeting. Members get one free submission."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "SFS Cavalcade North America 2026"
-    short_name: "SFS"
-    field: "finance"
-    category: "major"
-    year: 2026
-    conference_dates:
-      start: "2026-05-18"
-      end: "2026-05-21"
-    location: "Charlottesville, VA"
-    venue: "Darden School of Business, University of Virginia"
-    submission_deadline: "2025-12-11"
-    website: "https://sfs.org/sfs-cavalcade-north-america-2026/"
-    status: "submissions_closed"
-    notes: "$75 submission fee. PhD student fee waiver available. Dual submission to RCFS/RAPS."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "FIRS Annual Conference 2026"
-    short_name: "FIRS"
-    field: "finance"
-    category: "major"
-    year: 2026
-    conference_dates:
-      start: "2026-05-28"
-      end: "2026-05-30"
-    location: "Miami, FL"
-    venue: "JW Marriott Marquis Miami"
-    submission_deadline: "2025-11-18"
-    submission_deadline_phd: "2026-02-15"
-    website: "https://firsociety.org/conference/"
-    status: "submissions_closed"
-    notes: "$100 submission fee. PhD sessions deadline Feb 15, 2026. $5,000 JFI/FIRS best paper award."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "MFA Annual Meeting 2026"
-    short_name: "MFA"
-    field: "finance"
-    category: "regional"
-    year: 2026
-    conference_dates:
-      start: "2026-03-12"
-      end: "2026-03-14"
-    location: "Chicago, IL"
-    venue: "Radisson Blu Aqua Hotel"
-    submission_deadline: "2025-09-05"
-    website: "https://www.midwestfinance.org/2026-annual-meeting"
-    status: "submissions_closed"
-    notes: "Keynotes: Raghuram Rajan (Chicago) and Itay Goldstein (Penn)"
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "FMA Annual Meeting 2026"
-    short_name: "FMA"
-    field: "finance"
-    category: "major"
-    year: 2026
-    conference_dates:
-      start: "2026-10-14"
-      end: "2026-10-17"
-    location: "Tampa, FL"
-    venue: "Tampa Marriott Waterside Hotel & Marina"
-    submission_deadline: "2026-03-01"
-    website: "https://www.fma.org/"
-    status: "upcoming"
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "NFA Annual Meeting 2026"
-    short_name: "NFA"
-    field: "finance"
-    category: "regional"
-    year: 2026
-    conference_dates:
-      start: "2026-09-24"
-      end: "2026-09-26"
-    location: "TBD"
-    submission_deadline: "2026-05-01"
-    website: "https://www.northernfinanceassociation.org/"
-    status: "upcoming"
-    source: "manual"
-    last_verified: "2026-01-09"
-
-  - name: "CICF Annual Conference 2026"
-    short_name: "CICF"
-    field: "finance"
-    category: "major"
-    year: 2026
-    conference_dates:
-      start: "2026-06-26"
-      end: "2026-06-29"
-    location: "Hong Kong"
-    submission_deadline: "2026-02-01"
-    notification_date: "2026-03-20"
-    website: "https://www.cicfconf.org/"
-    status: "submissions_open"
-    notes: "Conference Chair: Jiang Wang (MIT). Program Chair: Neng Wang (CKGSB)."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  # ============================================================================
-  # ACCOUNTING CONFERENCES
-  # ============================================================================
-
-  - name: "AAA Annual Meeting 2026"
-    short_name: "AAA"
-    field: "accounting"
-    category: "major"
-    year: 2026
-    conference_dates:
-      start: "2026-08-01"
-      end: "2026-08-05"
-    location: "Las Vegas, NV"
-    submission_deadline: "2026-02-15"
-    notification_date: "2026-05-01"
-    website: "https://aaahq.org/Meetings"
-    status: "upcoming"
-    notes: "AAA Global Connect. Largest accounting conference. Multiple sections."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "FARS Midyear Meeting 2026"
-    short_name: "FARS"
-    field: "accounting"
-    category: "specialized"
-    year: 2026
-    conference_dates:
-      start: "2026-01-22"
-      end: "2026-01-24"
-    location: "San Antonio, TX"
-    venue: "Intercontinental Hotel"
-    submission_deadline: "2025-09-15"
-    website: "https://aaahq.org/Meetings/2026/FARS-Midyear-Meeting"
-    status: "submissions_closed"
-    notes: "Financial Accounting and Reporting Section. Keynote panel on Risk and Resilience in Research Careers."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "JAE Conference 2026"
-    short_name: "JAE"
-    field: "accounting"
-    category: "specialized"
-    year: 2026
-    conference_dates:
-      start: "2026-11-13"
-      end: "2026-11-14"
-    location: "Chapel Hill, NC"
-    venue: "Kenan-Flagler Business School, UNC"
-    submission_deadline: "2026-04-01"
-    website: "https://www.gsb.stanford.edu/events/jae-conference"
-    status: "upcoming"
-    notes: "Journal of Accounting and Economics conference. Invitation-only."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "JAR Conference 2026"
-    short_name: "JAR"
-    field: "accounting"
-    category: "specialized"
-    year: 2026
-    conference_dates:
-      start: "2026-05-01"
-      end: "2026-05-02"
-    location: "Chicago, IL"
-    venue: "University of Chicago Booth School of Business"
-    submission_deadline: "2026-01-15"
-    website: "https://www.chicagobooth.edu/research/chookaszian/events/jar-conference"
-    status: "submissions_open"
-    notes: "61st Ray Ball JAR Conference. Papers selected are published in conference issue."
-    source: "manual"
-    last_verified: "2026-01-10"
-
-  - name: "RAS Conference 2026"
-    short_name: "RAS"
-    field: "accounting"
-    category: "specialized"
-    year: 2026
-    conference_dates:
-      start: "2026-06-05"
-      end: "2026-06-06"
-    location: "TBD"
-    submission_deadline: "2026-02-01"
-    website: "https://academic.oup.com/raps"
-    status: "upcoming"
-    notes: "Review of Accounting Studies conference"
-    source: "manual"
-    last_verified: "2026-01-09"
-
-  # ============================================================================
-  # NBER CONFERENCES
-  # ============================================================================
-
-  - name: "NBER Corporate Finance Program Meeting (Spring 2026)"
-    short_name: "NBER-CF"
-    field: "finance"
-    category: "specialized"
-    year: 2026
-    conference_dates:
-      start: "2026-04-17"
-      end: "2026-04-18"
-    location: "Cambridge, MA"
-    submission_deadline: null
-    website: "https://www.nber.org/programs-projects/programs-working-groups/corporate-finance"
-    status: "upcoming"
-    notes: "By invitation. Papers circulated to program members."
-    source: "manual"
-    last_verified: "2026-01-09"
-
-  - name: "NBER Summer Institute: Corporate Finance 2026"
-    short_name: "NBER-SI-CF"
-    field: "finance"
-    category: "specialized"
-    year: 2026
-    conference_dates:
-      start: "2026-07-20"
-      end: "2026-07-21"
-    location: "Cambridge, MA"
-    submission_deadline: null
-    website: "https://www.nber.org/conferences/summer-institute"
-    status: "upcoming"
-    notes: "By invitation. Apply to present through NBER submission system."
-    source: "manual"
-    last_verified: "2026-01-09"
-
-  - name: "NBER Summer Institute: Risks of Financial Institutions 2026"
-    short_name: "NBER-SI-RFI"
-    field: "finance"
-    category: "specialized"
-    year: 2026
-    conference_dates:
-      start: "2026-07-22"
-      end: "2026-07-23"
-    location: "Cambridge, MA"
-    submission_deadline: null
-    website: "https://www.nber.org/conferences/summer-institute"
-    status: "upcoming"
-    notes: "By invitation."
-    source: "manual"
-    last_verified: "2026-01-09"
+    Code'
+  venue: Hyatt Regency Denver
+  submission_deadline: '2025-11-18'
+  notification_date: '2026-03-31'
+  website: https://westernfinance.org
+  status: submissions_closed
+  notes: Paper submission via SSRN
+  source: scraped
+  last_verified: '2026-01-11'
+- name: FIRS Annual Conference 2026
+  short_name: FIRS
+  field: finance
+  category: major
+  year: 2026
+  conference_dates:
+    start: '2026-05-28'
+    end: '2026-05-30'
+  location: Miami, FL
+  venue: JW Marriott Marquis Miami
+  submission_deadline: '2025-11-18'
+  submission_deadline_phd: '2026-02-15'
+  website: https://firsociety.org/conference/
+  status: submissions_closed
+  notes: $100 submission fee. PhD sessions deadline Feb 15, 2026. $5,000 JFI/FIRS
+    best paper award.
+  source: manual
+  last_verified: '2026-01-11'
+- name: SFS Cavalcade North America 2026
+  short_name: SFS
+  field: finance
+  category: major
+  year: 2026
+  conference_dates:
+    start: '2026-05-18'
+    end: '2026-05-21'
+  location: Charlottesville, VA
+  venue: Darden School of Business, University of Virginia
+  submission_deadline: '2025-12-11'
+  website: https://sfs.org/sfs-cavalcade-north-america-2026/
+  status: submissions_closed
+  notes: $75 submission fee. PhD student fee waiver available. Dual submission to
+    RCFS/RAPS.
+  source: manual
+  last_verified: '2026-01-11'
+- name: JAR Conference 2026
+  short_name: JAR
+  field: accounting
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-05-01'
+    end: '2026-05-02'
+  location: Chicago, IL
+  venue: University of Chicago Booth School of Business
+  submission_deadline: '2026-01-15'
+  website: https://www.chicagobooth.edu/research/chookaszian/events/jar-conference
+  status: submissions_open
+  notes: 61st Ray Ball JAR Conference. Papers selected are published in conference
+    issue.
+  source: manual
+  last_verified: '2026-01-11'
+- name: EFA Annual Meeting 2026
+  short_name: EFA
+  field: finance
+  category: major
+  year: 2026
+  conference_dates:
+    start: null
+    end: null
+  location: FinanceNewsletter
+  venue: Ghent University & Vlerick Business School
+  submission_deadline: '2026-02-01'
+  notification_date: '2026-05-01'
+  website: https://www.european-finance.org
+  status: submissions_open
+  notes: 53rd EFA Annual Meeting. Members get one free submission.
+  source: scraped
+  last_verified: '2026-01-11'
+- name: CICF Annual Conference 2026
+  short_name: CICF
+  field: finance
+  category: major
+  year: 2026
+  conference_dates:
+    start: '2026-06-26'
+    end: '2026-06-29'
+  location: Hong Kong
+  submission_deadline: '2026-02-01'
+  notification_date: '2026-03-20'
+  website: https://www.cicfconf.org/
+  status: submissions_open
+  notes: 'Conference Chair: Jiang Wang (MIT). Program Chair: Neng Wang (CKGSB).'
+  source: manual
+  last_verified: '2026-01-11'
+- name: RAS Conference 2026
+  short_name: RAS
+  field: accounting
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-06-05'
+    end: '2026-06-06'
+  location: TBD
+  submission_deadline: '2026-02-01'
+  website: https://academic.oup.com/raps
+  status: submissions_open
+  notes: Review of Accounting Studies conference
+  source: manual
+  last_verified: '2026-01-11'
+- name: AAA Annual Meeting 2026
+  short_name: AAA
+  field: accounting
+  category: major
+  year: 2026
+  conference_dates:
+    start: '2026-08-01'
+    end: '2026-08-05'
+  location: Las Vegas, NV
+  submission_deadline: '2026-02-15'
+  notification_date: '2026-05-01'
+  website: https://aaahq.org/Meetings
+  status: submissions_open
+  notes: AAA Global Connect. Largest accounting conference. Multiple sections.
+  source: manual
+  last_verified: '2026-01-11'
+- name: Trans-Atlantic Doctoral Conference 2026
+  short_name: TADC
+  field: finance
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-05-15'
+    end: '2026-05-16'
+  location: London, UK
+  submission_deadline: '2026-02-15'
+  website: https://www.lbs.edu/
+  status: submissions_open
+  notes: PhD student focused. London Business School.
+  source: manual
+  last_verified: '2026-01-11'
+- name: FMA Annual Meeting 2026
+  short_name: FMA
+  field: finance
+  category: major
+  year: 2026
+  conference_dates:
+    start: '2026-10-14'
+    end: '2026-10-17'
+  location: Tampa, FL
+  venue: Tampa Marriott Waterside Hotel & Marina
+  submission_deadline: '2026-03-01'
+  website: https://www.fma.org/
+  status: submissions_open
+  source: manual
+  last_verified: '2026-01-11'
+- name: AFA Annual Meeting 2027
+  short_name: AFA
+  field: finance
+  category: major
+  year: 2027
+  conference_dates:
+    start: '2027-01-03'
+    end: '2027-01-05'
+  location: Washington, DC
+  submission_deadline: '2026-03-16'
+  website: https://www.afajof.org/annual-meeting
+  status: submissions_open
+  notes: Submission deadline TBA (expected mid-March 2026)
+  source: manual
+  last_verified: '2026-01-11'
+- name: JAE Conference 2026
+  short_name: JAE
+  field: accounting
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-11-13'
+    end: '2026-11-14'
+  location: Chapel Hill, NC
+  venue: Kenan-Flagler Business School, UNC
+  submission_deadline: '2026-04-01'
+  website: https://www.gsb.stanford.edu/events/jae-conference
+  status: submissions_open
+  notes: Journal of Accounting and Economics conference. Invitation-only.
+  source: manual
+  last_verified: '2026-01-11'
+- name: NFA Annual Meeting 2026
+  short_name: NFA
+  field: finance
+  category: regional
+  year: 2026
+  conference_dates:
+    start: '2026-09-24'
+    end: '2026-09-26'
+  location: TBD
+  submission_deadline: '2026-05-01'
+  website: https://www.northernfinanceassociation.org/
+  status: submissions_open
+  source: manual
+  last_verified: '2026-01-11'
+- name: NBER Corporate Finance Program Meeting (Spring 2026)
+  short_name: NBER-CF
+  field: finance
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-04-17'
+    end: '2026-04-18'
+  location: Cambridge, MA
+  submission_deadline: null
+  website: https://www.nber.org/programs-projects/programs-working-groups/corporate-finance
+  status: upcoming
+  notes: By invitation. Papers circulated to program members.
+  source: manual
+  last_verified: '2026-01-11'
+- name: 'NBER Summer Institute: Corporate Finance 2026'
+  short_name: NBER-SI-CF
+  field: finance
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-07-20'
+    end: '2026-07-21'
+  location: Cambridge, MA
+  submission_deadline: null
+  website: https://www.nber.org/conferences/summer-institute
+  status: upcoming
+  notes: By invitation. Apply to present through NBER submission system.
+  source: manual
+  last_verified: '2026-01-11'
+- name: 'NBER Summer Institute: Risks of Financial Institutions 2026'
+  short_name: NBER-SI-RFI
+  field: finance
+  category: specialized
+  year: 2026
+  conference_dates:
+    start: '2026-07-22'
+    end: '2026-07-23'
+  location: Cambridge, MA
+  submission_deadline: null
+  website: https://www.nber.org/conferences/summer-institute
+  status: upcoming
+  notes: By invitation.
+  source: manual
+  last_verified: '2026-01-11'
+- name: AFA Annual Meeting 2026
+  short_name: AFA
+  field: finance
+  category: major
+  year: 2026
+  conference_dates:
+    start: '2026-01-03'
+    end: '2026-01-05'
+  location: Philadelphia, PA
+  venue: Loews Philadelphia Hotel
+  submission_deadline: '2025-03-17'
+  notification_date: '2025-08-15'
+  website: https://www.afajof.org/annual-meeting
+  cfp_url: https://www.afajof.org/call-for-papers
+  status: past
+  notes: Joint with ASSA. PhD poster session available.
+  source: scraped
+  last_verified: '2026-01-11'
