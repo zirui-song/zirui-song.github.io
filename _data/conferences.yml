@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-27T06:42:51.475529+00:00'
+  last_updated: '2026-01-28T06:43:39.597011+00:00'
   scraper_version: 1.0.0
   total_conferences: 21
 conferences:
@@ -20,7 +20,7 @@ conferences:
   status: submissions_closed
   notes: Joint with ASSA. PhD poster session available.
   source: scraped
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: MFA Annual Meeting 2026
   short_name: MFA
   field: finance
@@ -36,7 +36,7 @@ conferences:
   status: submissions_closed
   notes: 'Keynotes: Raghuram Rajan (Chicago) and Itay Goldstein (Penn)'
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: Lone Star Accounting Research Conference 2026
   short_name: Lone Star
   field: accounting
@@ -51,7 +51,7 @@ conferences:
   status: submissions_closed
   notes: Joint conference of Texas accounting programs.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: HARC 2026
   short_name: HARC
   field: accounting
@@ -66,7 +66,7 @@ conferences:
   status: submissions_closed
   notes: Hawaii Accounting Research Conference. Submission via email to organizers.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: WFA Annual Meeting 2026
   short_name: WFA
   field: finance
@@ -85,7 +85,7 @@ conferences:
   status: submissions_closed
   notes: Paper submission via SSRN
   source: scraped
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: FIRS Annual Conference 2026
   short_name: FIRS
   field: finance
@@ -103,7 +103,7 @@ conferences:
   notes: $100 submission fee. PhD sessions deadline Feb 15, 2026. $5,000 JFI/FIRS
     best paper award.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: SFS Cavalcade North America 2026
   short_name: SFS
   field: finance
@@ -120,7 +120,7 @@ conferences:
   notes: $75 submission fee. PhD student fee waiver available. Dual submission to
     RCFS/RAPS.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: JAR Conference 2026
   short_name: JAR
   field: accounting
@@ -137,7 +137,7 @@ conferences:
   notes: 61st Ray Ball JAR Conference. Papers selected are published in conference
     issue.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: EFA Annual Meeting 2026
   short_name: EFA
   field: finance
@@ -154,7 +154,7 @@ conferences:
   status: submissions_open
   notes: 53rd EFA Annual Meeting. Members get one free submission.
   source: scraped
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: CICF Annual Conference 2026
   short_name: CICF
   field: finance
@@ -170,7 +170,7 @@ conferences:
   status: submissions_open
   notes: 'Conference Chair: Jiang Wang (MIT). Program Chair: Neng Wang (CKGSB).'
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: RAS Conference 2026
   short_name: RAS
   field: accounting
@@ -185,7 +185,7 @@ conferences:
   status: submissions_open
   notes: Review of Accounting Studies conference
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: AAA Annual Meeting 2026
   short_name: AAA
   field: accounting
@@ -201,7 +201,7 @@ conferences:
   status: submissions_open
   notes: AAA Global Connect. Largest accounting conference. Multiple sections.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: Trans-Atlantic Doctoral Conference 2026
   short_name: TADC
   field: finance
@@ -216,7 +216,7 @@ conferences:
   status: submissions_open
   notes: PhD student focused. London Business School.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: FMA Annual Meeting 2026
   short_name: FMA
   field: finance
@@ -231,7 +231,7 @@ conferences:
   website: https://www.fma.org/
   status: submissions_open
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: AFA Annual Meeting 2027
   short_name: AFA
   field: finance
@@ -246,7 +246,7 @@ conferences:
   status: submissions_open
   notes: Joint with ASSA. PhD poster session available.
   source: scraped
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
   cfp_url: https://www.afajof.org/call-for-papers
 - name: JAE Conference 2026
   short_name: JAE
@@ -263,7 +263,7 @@ conferences:
   status: submissions_open
   notes: Journal of Accounting and Economics conference. Invitation-only.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: NFA Annual Meeting 2026
   short_name: NFA
   field: finance
@@ -277,7 +277,7 @@ conferences:
   website: https://www.northernfinanceassociation.org/
   status: submissions_open
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: NBER Corporate Finance Program Meeting (Spring 2026)
   short_name: NBER-CF
   field: finance
@@ -292,7 +292,7 @@ conferences:
   status: upcoming
   notes: By invitation. Papers circulated to program members.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: 'NBER Summer Institute: Corporate Finance 2026'
   short_name: NBER-SI-CF
   field: finance
@@ -307,7 +307,7 @@ conferences:
   status: upcoming
   notes: By invitation. Apply to present through NBER submission system.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: 'NBER Summer Institute: Risks of Financial Institutions 2026'
   short_name: NBER-SI-RFI
   field: finance
@@ -322,7 +322,7 @@ conferences:
   status: upcoming
   notes: By invitation.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
 - name: FARS Midyear Meeting 2026
   short_name: FARS
   field: accounting
@@ -339,4 +339,4 @@ conferences:
   notes: Financial Accounting and Reporting Section. Keynote panel on Risk and Resilience
     in Research Careers.
   source: manual
-  last_verified: '2026-01-27'
+  last_verified: '2026-01-28'
