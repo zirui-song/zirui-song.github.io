@@ -1,5 +1,6 @@
 ---
 title: "Tax Shields under Siege"
+category: working_paper
 collection: papers
 #permalink: /publication/2024-02-17-paper-title-number-4
 #xcerpt: 'This paper is about fixing template issue #693.'

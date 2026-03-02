@@ -102,7 +102,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 
 <h2>Working Papers</h2>
 
-{% assign working_papers = site.research | where_exp: "p", "p.status == nil and p.subsumed_by == nil" | sort: "date" | reverse %}
+{% assign working_papers = site.research | where: "category", "working_paper" | sort: "date" | reverse %}
 {% for post in working_papers %}
 <div class="paper">
   <p class="paper-title">"{{ post.title }}"</p>
@@ -119,7 +119,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 
 <h2>Work in Progress</h2>
 
-{% assign wip_papers = site.research | where: "status", "Work in Progress" | sort: "date" | reverse %}
+{% assign wip_papers = site.research | where: "category", "wip" | sort: "date" | reverse %}
 {% for post in wip_papers %}
 <div class="paper">
   <p class="paper-title">"{{ post.title }}"</p>
@@ -131,7 +131,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 </div>
 {% endfor %}
 
-{% assign subsumed_papers = site.research | where_exp: "p", "p.subsumed_by != nil" | sort: "date" | reverse %}
+{% assign subsumed_papers = site.research | where: "category", "subsumed" | sort: "date" | reverse %}
 {% if subsumed_papers.size > 0 %}
 <h2>Subsumed Papers</h2>
 

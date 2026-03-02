@@ -1,8 +1,8 @@
 ---
 title: "Firms' Leverage Targets"
+category: wip
 collection: research
 date: 2025-02-27
-status: "Work in Progress"
 authors:
     - name: Jiacheng Liu
       url: https://www.jiachengliu-fin.tech/
