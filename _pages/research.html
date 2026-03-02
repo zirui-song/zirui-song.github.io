@@ -4,36 +4,125 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
-{% include base_path %}
+<style>
+.research-section h2 {
+  font-size: 1.1em;
+  color: #5a7a9b;
+  border-bottom: 1px solid #d6e3ed;
+  padding-bottom: 6px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.research-section .paper {
+  margin-bottom: 1.4em;
+}
+.research-section .paper-title {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin: 0;
+  line-height: 1.5;
+}
+.research-section .paper-title a {
+  color: #3a3a3a;
+  text-decoration: none;
+}
+.research-section .paper-title a:hover {
+  color: #5a7a9b;
+}
+.research-section .paper-authors {
+  font-size: 0.85em;
+  color: #6b6b6b;
+  margin: 2px 0 0 0;
+  line-height: 1.5;
+}
+.research-section .paper-authors a {
+  color: #6b8fad;
+  text-decoration: none;
+}
+.research-section .paper-authors a:hover {
+  text-decoration: underline;
+}
+.research-section .paper-links {
+  font-size: 0.82em;
+  margin: 3px 0 0 0;
+}
+.research-section .paper-links a {
+  color: #7a9bb5;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.research-section .paper-links a:hover {
+  color: #5a7a9b;
+  text-decoration: underline;
+}
+.research-section .paper-note {
+  font-size: 0.82em;
+  color: #9aabba;
+  font-style: italic;
+  margin: 3px 0 0 0;
+}
+</style>
 
-<!--
-New style rendering if paper categories are defined
-{% if site.paper_category %}
-  {% for category in site.paper_category %}
-    {% assign title_shown = false %}
-    {% for post in site.papers reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.papers reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
--->
+<div class="research-section">
 
-Old style rendering
-{% for post in site.research reversed %}
-  {% include archive-single.html %}
+<h2>Working Papers</h2>
+
+{% assign working_papers = site.research | where_exp: "p", "p.status == nil and p.subsumed_by == nil" | sort: "date" | reverse %}
+{% for post in working_papers %}
+<div class="paper">
+  <p class="paper-title">
+    "{{ post.title }}"
+  </p>
+  {% if post.authors %}
+  <p class="paper-authors">
+    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+  {% if post.paperurl %}
+  <p class="paper-links">
+    <a href="{{ post.paperurl }}">[PDF]</a>
+  </p>
+  {% endif %}
+</div>
 {% endfor %}
+
+<h2>Work in Progress</h2>
+
+{% assign wip_papers = site.research | where: "status", "Work in Progress" | sort: "date" | reverse %}
+{% for post in wip_papers %}
+<div class="paper">
+  <p class="paper-title">
+    "{{ post.title }}"
+  </p>
+  {% if post.authors %}
+  <p class="paper-authors">
+    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+
+{% assign subsumed_papers = site.research | where_exp: "p", "p.subsumed_by != nil" | sort: "date" | reverse %}
+{% if subsumed_papers.size > 0 %}
+<h2>Subsumed Papers</h2>
+
+{% for post in subsumed_papers %}
+<div class="paper">
+  <p class="paper-title">
+    "{{ post.title }}"
+  </p>
+  {% if post.authors %}
+  <p class="paper-authors">
+    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+  <p class="paper-note">Subsumed by "{{ post.subsumed_by }}"</p>
+</div>
+{% endfor %}
+{% endif %}
+
+</div>
