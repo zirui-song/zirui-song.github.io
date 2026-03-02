@@ -7,25 +7,152 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is **Zirui Song**. I am a second-year PhD student at **MIT Sloan**. Previously I worked at Chicago Booth after graduating from the University of Chicago with degrees in Mathematics, Economics (Honors), and Statistics.
+<style>
+.home-section h2 {
+  font-size: 1.1em;
+  color: #5a7a9b;
+  border-bottom: 1px solid #d6e3ed;
+  padding-bottom: 6px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.home-section .paper {
+  margin-bottom: 1.4em;
+}
+.home-section .paper-title {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin: 0;
+  line-height: 1.5;
+}
+.home-section .paper-authors {
+  font-size: 0.85em;
+  color: #6b6b6b;
+  margin: 2px 0 0 0;
+  line-height: 1.5;
+}
+.home-section .paper-authors a {
+  color: #6b8fad;
+  text-decoration: none;
+}
+.home-section .paper-authors a:hover {
+  text-decoration: underline;
+}
+.home-section .paper-links {
+  font-size: 0.82em;
+  margin: 3px 0 0 0;
+}
+.home-section .paper-links a {
+  color: #7a9bb5;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.home-section .paper-links a:hover {
+  color: #5a7a9b;
+  text-decoration: underline;
+}
+.home-section .paper-note {
+  font-size: 0.82em;
+  color: #9aabba;
+  font-style: italic;
+  margin: 3px 0 0 0;
+}
+.home-section .teaching-item {
+  font-size: 0.9em;
+  color: #4a4a4a;
+  margin-bottom: 0.6em;
+  line-height: 1.5;
+}
+.home-section .teaching-detail {
+  font-size: 0.82em;
+  color: #6b6b6b;
+}
+.home-section p.intro {
+  font-size: 0.92em;
+  color: #4a4a4a;
+  line-height: 1.7;
+}
+.home-section .cv-link {
+  font-size: 0.88em;
+}
+.home-section .cv-link a {
+  color: #6b8fad;
+  text-decoration: none;
+}
+.home-section .cv-link a:hover {
+  color: #5a7a9b;
+  text-decoration: underline;
+}
+</style>
 
-My research interests are **Banking**, **Debt Contracting**, and **Corporate Finance**.
+<div class="home-section">
 
----
+<p class="intro">
+Hello! My name is <strong>Zirui Song</strong>. I am a second-year PhD student at <strong>MIT Sloan</strong>. Previously I worked at Chicago Booth after graduating from the University of Chicago with degrees in Mathematics, Economics (Honors), and Statistics.
+</p>
 
-## Working Papers
+<p class="intro">
+My research interests are <strong>Banking</strong>, <strong>Debt Contracting</strong>, and <strong>Corporate Finance</strong>.
+</p>
 
-**Tax Shields Under Siege: The Effect of Limiting Interest Deductibility on Commercial Lending Negotiations**
-*with Edward L. Maydew, Matthew A. Phillips* — [SSRN](https://ssrn.com/abstract=5123295){:target="_blank"}
+<p class="cv-link"><a href="/cv/">Curriculum Vitae</a></p>
 
-> This paper examines how tax policy affects borrower-lender negotiations in syndicated loan markets. Using the Tax Cuts and Jobs Act (TCJA) of 2017 as a natural experiment, we analyze changes in loan terms for firms facing higher after-tax borrowing costs due to limits on interest deductibility. We find that borrowers most likely to face limited interest deductibility negotiate lower interest rates post-TCJA. Importantly, we observe no changes in non-price terms such as covenants, maturities, or collateral requirements, suggesting that lenders share the incidence of tax policy burdens with borrowers rather than offsetting reduced rates through stricter loan terms. The results are concentrated in borrowers that operate in industries that saw increased lender competition after the TCJA. We also find no evidence of changes in the creditworthiness of firms with limited interested deductibility post-TCJA, suggesting that the change in loan spreads is not attributable to changes in borrower fundamentals. Our findings demonstrate lenders' willingness to share borrowers' tax burdens as a novel channel by which tax policy affects corporate financing decisions and credit markets.
+<h2>Working Papers</h2>
 
-**Information Covenants of Nonbank Direct Lending**
-*Draft coming soon!*
+{% assign working_papers = site.research | where_exp: "p", "p.status == nil and p.subsumed_by == nil" | sort: "date" | reverse %}
+{% for post in working_papers %}
+<div class="paper">
+  <p class="paper-title">"{{ post.title }}"</p>
+  {% if post.authors %}
+  <p class="paper-authors">
+    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+  {% if post.paperurl %}
+  <p class="paper-links"><a href="{{ post.paperurl }}">[PDF]</a></p>
+  {% endif %}
+</div>
+{% endfor %}
 
----
+<h2>Work in Progress</h2>
 
-## Other Writing
+{% assign wip_papers = site.research | where: "status", "Work in Progress" | sort: "date" | reverse %}
+{% for post in wip_papers %}
+<div class="paper">
+  <p class="paper-title">"{{ post.title }}"</p>
+  {% if post.authors %}
+  <p class="paper-authors">
+    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
 
-**Why Stock Buybacks Increase Financial Stability in Banking**
-*with S.P. Kothari, Hamid Mehran* — [ProMarket](https://www.promarket.org/2024/12/12/why-stock-buybacks-increase-financial-stability-in-banking/){:target="_blank"}
+{% assign subsumed_papers = site.research | where_exp: "p", "p.subsumed_by != nil" | sort: "date" | reverse %}
+{% if subsumed_papers.size > 0 %}
+<h2>Subsumed Papers</h2>
+
+{% for post in subsumed_papers %}
+<div class="paper">
+  <p class="paper-title">"{{ post.title }}"</p>
+  {% if post.authors %}
+  <p class="paper-authors">
+    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+  <p class="paper-note">Subsumed by "{{ post.subsumed_by }}"</p>
+</div>
+{% endfor %}
+{% endif %}
+
+<h2>Teaching</h2>
+
+<div class="teaching-item">
+  <strong>TA for 15.511 Corporate Financial Accounting</strong><br>
+  <span class="teaching-detail">MIT Sloan, Summer 2024 — Professor S.P. Kothari</span>
+</div>
+
+</div>
