@@ -8,9 +8,9 @@ date: 2025-01-27
 paperurl: 'http://zirui-song.github.io/files/MPS.pdf'
 #citation: 'Maydew, E. L., Phillips, M. A., & Song, Z. (2024). Tax Shields Under Siege: The Effect of Limiting Interest Deductibility on Commercial Lending Negotiations. Working paper. &quot;Tax Shields under Siege.&quot; <i>Working paper</i>.'
 authors:
-    - E. L. Maydew
-    - M. A. Phillips
-    - Z. Song
+    - name: E. L. Maydew
+    - name: M. A. Phillips
+    - name: Z. Song
 ---
 
 This paper examines how tax policy affects borrower-lender negotiations in syndicated

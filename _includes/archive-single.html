@@ -32,12 +32,23 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if post.status %}
+        <span style="font-size: 0.6em; font-weight: normal; color: #888; margin-left: 0.5em;">[{{ post.status }}]</span>
+      {% endif %}
     </h2>
 
+    {% if post.subsumed_by %}
+      <p style="color: #888; font-style: italic;">This paper has been subsumed by "{{ post.subsumed_by }}".</p>
+    {% endif %}
+
     {% if post.authors %}
-      <p><strong>Authors:</strong> 
+      <p><strong>Authors:</strong>
         {% for author in post.authors %}
-          {{ author }}{% if forloop.last == false %}, {% endif %}
+          {% if author.name %}
+            {% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}
+          {% else %}
+            {{ author }}
+          {% endif %}{% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </p>
     {% endif %}
