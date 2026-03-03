@@ -2,14 +2,24 @@
 title: "Tax Shields under Siege"
 category: working_paper
 collection: papers
-#permalink: /publication/2024-02-17-paper-title-number-4
-#xcerpt: 'This paper is about fixing template issue #693.'
 date: 2025-01-27
-#venue: 'GitHub Journal of Bugs'
-paperurl: 'http://zirui-song.github.io/files/MPS.pdf'
-#citation: 'Maydew, E. L., Phillips, M. A., & Song, Z. (2024). Tax Shields Under Siege: The Effect of Limiting Interest Deductibility on Commercial Lending Negotiations. Working paper. &quot;Tax Shields under Siege.&quot; <i>Working paper</i>.'
+ssrnurl: 'https://ssrn.com/abstract=5123295'
 authors:
     - name: E. L. Maydew
     - name: M. A. Phillips
     - name: Z. Song
+presentations:
+    - name: 15th EIASM Conference on the Current Research in Taxation
+    - name: Emerging Scholars in Accounting Conference at Boston University 2025
+      coauthor: true
+    - name: IESE Tax Conference 2025
+    - name: MIT PhD Student Brown Bag
+    - name: NYU Big Apple Conference 2025
+      coauthor: true
+    - name: University of Toronto
+      coauthor: true
+    - name: University of Utah
+      coauthor: true
+    - name: University of Florida
+      coauthor: true
 ---

@@ -54,6 +54,12 @@ redirect_from:
   color: #5a7a9b;
   text-decoration: underline;
 }
+.home-section .paper-presentations {
+  font-size: 0.82em;
+  color: #7a7a7a;
+  margin: 3px 0 0 0;
+  line-height: 1.6;
+}
 .home-section .paper-note {
   font-size: 0.82em;
   color: #9aabba;
@@ -111,8 +117,11 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
     {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
-  {% if post.paperurl %}
-  <p class="paper-links"><a href="{{ post.paperurl }}">[PDF]</a></p>
+  {% if post.ssrnurl %}
+  <p class="paper-links"><a href="{{ post.ssrnurl }}">[SSRN]</a></p>
+  {% endif %}
+  {% if post.presentations %}
+  <p class="paper-presentations">Presented at: {% for pres in post.presentations %}{{ pres.name }}{% if pres.coauthor %}*{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
   {% endif %}
 </div>
 {% endfor %}
@@ -128,8 +137,16 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
     {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
+  {% if post.ssrnurl %}
+  <p class="paper-links"><a href="{{ post.ssrnurl }}">[SSRN]</a></p>
+  {% endif %}
+  {% if post.presentations %}
+  <p class="paper-presentations">Presented at: {% for pres in post.presentations %}{{ pres.name }}{% if pres.coauthor %}*{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
+  {% endif %}
 </div>
 {% endfor %}
+
+<p style="font-size: 0.78em; color: #9aabba; margin-top: 0.5em;">* presented by coauthor</p>
 
 {% assign subsumed_papers = site.research | where: "category", "subsumed" | sort: "date" | reverse %}
 {% if subsumed_papers.size > 0 %}
