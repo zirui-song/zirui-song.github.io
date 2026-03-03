@@ -168,6 +168,16 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 <h2>Teaching</h2>
 
 <div class="teaching-item">
+  <strong>TA for 15.511 Corporate Financial Accounting (EMBA)</strong><br>
+  <span class="teaching-detail">MIT Sloan, Spring 2026 — Professor Nemit Shroff</span>
+</div>
+
+<div class="teaching-item">
+  <strong>TA for 15.511 Corporate Financial Accounting</strong><br>
+  <span class="teaching-detail">MIT Sloan, Summer 2025 — Professor S.P. Kothari</span>
+</div>
+
+<div class="teaching-item">
   <strong>TA for 15.511 Corporate Financial Accounting</strong><br>
   <span class="teaching-detail">MIT Sloan, Summer 2024 — Professor S.P. Kothari</span>
 </div>
