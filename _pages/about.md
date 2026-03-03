@@ -97,7 +97,7 @@ redirect_from:
 <div class="home-section">
 
 <p class="intro">
-Hello! My name is <strong>Zirui Song</strong>. I am a second-year PhD student at <strong>MIT Sloan</strong>. Previously I worked at Chicago Booth after graduating from the University of Chicago with degrees in Mathematics, Economics (Honors), and Statistics.
+Hello! My name is <strong>Zirui Song</strong>. I am a third-year PhD student at <strong>MIT Sloan</strong>. Previously I worked at Chicago Booth after graduating from the University of Chicago with degrees in Mathematics, Economics (Honors), and Statistics.
 </p>
 
 <p class="intro">
