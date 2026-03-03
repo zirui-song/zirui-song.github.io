@@ -6,7 +6,9 @@ date: 2025-01-27
 ssrnurl: 'https://ssrn.com/abstract=5123295'
 authors:
     - name: E. L. Maydew
+      url: https://www.kenan-flagler.unc.edu/faculty/directory/edward-maydew/
     - name: M. A. Phillips
+      url: https://www.kellogg.northwestern.edu/academics-research/faculty/phillips-matthew/
     - name: Z. Song
 presentations:
     - name: 15th EIASM Conference on the Current Research in Taxation
