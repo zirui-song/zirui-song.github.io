@@ -168,7 +168,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 <h2>Teaching</h2>
 
 <div class="teaching-item">
-  <strong>TA for 15.511 Corporate Financial Accounting (EMBA)</strong><br>
+  <strong>TA for 15.720 Corporate Financial Accounting (EMBA)</strong><br>
   <span class="teaching-detail">MIT Sloan, Spring 2026 — Professor Nemit Shroff</span>
 </div>
 
