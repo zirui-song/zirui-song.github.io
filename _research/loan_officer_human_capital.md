@@ -1,9 +1,10 @@
 ---
 title: "When Expertise Matters: Loan Officer Industry Specialization, Loan Pricing, and Contract Design"
-category: subsumed
+category: working_paper
 collection: research
 date: 2025-12-01
-subsumed_by: "Human Capital in Financial Contracting"
 authors:
     - name: Zirui Song
+presentations:
+    - name: MIT
 ---

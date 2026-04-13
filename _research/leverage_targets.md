@@ -1,6 +1,6 @@
 ---
 title: "Firms' Leverage Targets"
-category: wip
+category: working_paper
 collection: research
 date: 2025-02-27
 authors:

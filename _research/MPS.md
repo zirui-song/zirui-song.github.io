@@ -1,5 +1,5 @@
 ---
-title: "Tax Shields under Siege"
+title: "Tax Policy and Syndicated Loan Contracting"
 category: working_paper
 collection: papers
 date: 2025-01-27

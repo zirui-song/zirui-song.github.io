@@ -16,12 +16,15 @@ Education
 
 Work experience
 ======
-* 2021-2023: Research Assistant
+* 2024: Research Assistant
+  * MIT Sloan School of Management
+  * Supervisor: Professor Kerry Siani
+* 2021-2023: Research Professional
   * University of Chicago Booth School of Business
   * Supervisors: Professor Christian Leuz and Joao Granja
-  
-Languages
-======
-* Python, R, Stata, Matlab, Latex
 
- 
+Skills
+======
+* Python, Stata, R, Julia, MATLAB, LaTeX, Git, Bash, SLURM, SQL
+
+

@@ -148,11 +148,11 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 
 <p style="font-size: 0.78em; color: #9aabba; margin-top: 0.5em;">* presented by coauthor</p>
 
-{% assign subsumed_papers = site.research | where: "category", "subsumed" | sort: "date" | reverse %}
-{% if subsumed_papers.size > 0 %}
-<h2>Subsumed Papers</h2>
+{% assign other_work = site.research | where: "category", "other_work" | sort: "date" | reverse %}
+{% if other_work.size > 0 %}
+<h2>Other Work</h2>
 
-{% for post in subsumed_papers %}
+{% for post in other_work %}
 <div class="paper">
   <p class="paper-title">"{{ post.title }}"</p>
   {% if post.authors %}
@@ -160,7 +160,9 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
     {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
-  <p class="paper-note">Subsumed by "{{ post.subsumed_by }}"</p>
+  {% if post.linkurl %}
+  <p class="paper-links"><a href="{{ post.linkurl }}">[{{ post.linktext }}]</a></p>
+  {% endif %}
 </div>
 {% endfor %}
 {% endif %}
