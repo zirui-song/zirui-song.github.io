@@ -9,5 +9,4 @@ authors:
       url: https://sites.google.com/view/youngsoojang/home
     - name: Vrinda Mittal
       url: https://www.vrindamittal.com/
-    - name: Zirui Song
 ---

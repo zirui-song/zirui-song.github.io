@@ -8,5 +8,4 @@ linktext: 'ProMarket'
 authors:
     - name: S.P. Kothari
     - name: Hamid Mehran
-    - name: Zirui Song
 ---

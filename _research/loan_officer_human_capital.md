@@ -3,8 +3,6 @@ title: "When Expertise Matters: Loan Officer Industry Specialization, Loan Prici
 category: wip
 collection: research
 date: 2025-12-01
-authors:
-    - name: Zirui Song
 presentations:
     - name: MIT
 ---
