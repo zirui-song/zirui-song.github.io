@@ -114,7 +114,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
   <p class="paper-title">"{{ post.title }}"</p>
   {% if post.authors %}
   <p class="paper-authors">
-    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+    with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
   {% if post.ssrnurl %}
@@ -134,7 +134,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
   <p class="paper-title">"{{ post.title }}"</p>
   {% if post.authors %}
   <p class="paper-authors">
-    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+    with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
   {% if post.ssrnurl %}
@@ -157,7 +157,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
   <p class="paper-title">"{{ post.title }}"</p>
   {% if post.authors %}
   <p class="paper-authors">
-    {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+    with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
   {% if post.linkurl %}
