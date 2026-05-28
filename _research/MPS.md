@@ -3,6 +3,7 @@ title: "Tax Policy and Syndicated Loan Contracting"
 category: working_paper
 collection: papers
 date: 2025-01-27
+status: 'R&R at <em>Journal of Accounting Research</em>'
 ssrnurl: 'https://ssrn.com/abstract=5123295'
 authors:
     - name: E. L. Maydew

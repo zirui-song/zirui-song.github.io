@@ -82,6 +82,9 @@ author_profile: true
     with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
+  {% if post.status %}
+  <p class="paper-note">{{ post.status }}</p>
+  {% endif %}
   {% if post.paperurl %}
   <p class="paper-links">
     <a href="{{ post.paperurl }}">[PDF]</a>
