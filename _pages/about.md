@@ -117,6 +117,9 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
     with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
+  {% if post.status %}
+  <p class="paper-note">{{ post.status }}</p>
+  {% endif %}
   {% if post.ssrnurl %}
   <p class="paper-links"><a href="{{ post.ssrnurl }}">[SSRN]</a></p>
   {% endif %}
