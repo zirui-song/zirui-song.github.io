@@ -6,10 +6,9 @@ date: 2025-01-27
 status: 'R&R at <em>Journal of Accounting Research</em>'
 ssrnurl: 'https://ssrn.com/abstract=5123295'
 authors:
-    - name: E. L. Maydew
-      url: https://www.kenan-flagler.unc.edu/faculty/directory/edward-maydew/
-    - name: M. A. Phillips
-      url: https://www.kellogg.northwestern.edu/academics-research/faculty/phillips-matthew/
+    - name: Ed Maydew
+    - name: Matt Phillips
+      url: https://www.mattphillipsphd.me/
 presentations:
     - name: 15th EIASM Conference on the Current Research in Taxation
     - name: Emerging Scholars in Accounting Conference at Boston University 2025
