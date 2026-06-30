@@ -129,7 +129,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 </div>
 {% endfor %}
 
-<h2>Work in Progress</h2>
+<h2>Selected Work in Progress</h2>
 
 {% assign wip_papers = site.research | where: "category", "wip" | sort: "date" | reverse %}
 {% for post in wip_papers %}
