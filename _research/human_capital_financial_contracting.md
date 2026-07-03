@@ -9,4 +9,12 @@ authors:
       url: https://sites.google.com/view/youngsoojang/home
     - name: Vrinda Mittal
       url: https://www.vrindamittal.com/
+presentations:
+    - name: MIT Econometrics Clinic 2026
+    - name: ISB Summer Conference 2026
+      coauthor: true
+    - name: Wharton-Chicago-Harvard Insolvency and Restructuring 2026
+      coauthor: true
+    - name: RCF-ECGI 2026
+      coauthor: true
 ---
