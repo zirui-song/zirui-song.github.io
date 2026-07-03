@@ -18,5 +18,5 @@
 
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, All Rights Reserved.
-  Site last updated {{ "now" | date: '%Y-%m-%d' %}}
+  Site last updated {{ site.last_updated | default: site.time | date: '%Y-%m-%d' }}
 </div>
