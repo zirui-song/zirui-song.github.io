@@ -9,6 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+.page__content {
+  font-size: 0.92em;
+  color: #4a4a4a;
+  line-height: 1.7;
+}
+.page__content h1 {
+  font-size: 1.2em;
+  color: #5a7a9b;
+  border-bottom: 1px solid #d6e3ed;
+  padding-bottom: 6px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+</style>
+
 Education
 ======
 * Ph.D in Accounting, Massachusetts Institute of Technology, 2028 (expected)
