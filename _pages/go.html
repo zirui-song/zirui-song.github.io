@@ -1,0 +1,83 @@
+---
+layout: archive
+title: "Go"
+permalink: /go/
+author_profile: true
+---
+
+<style>
+.page__title {
+  font-size: 1.2em;
+  color: #5a7a9b;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.archive {
+  font-size: 0.92em;
+  color: #4a4a4a;
+  line-height: 1.7;
+}
+.go-section h2 {
+  font-size: 1.1em;
+  color: #5a7a9b;
+  border-bottom: 1px solid #d6e3ed;
+  padding-bottom: 6px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.go-section .achievement {
+  display: flex;
+  margin-bottom: 1.1em;
+}
+.go-section .achievement-year {
+  flex: 0 0 70px;
+  font-size: 0.88em;
+  color: #9aabba;
+  font-weight: 600;
+}
+.go-section .achievement-title {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin: 0;
+  line-height: 1.5;
+}
+.go-section .achievement-detail {
+  font-size: 0.85em;
+  color: #6b6b6b;
+  margin: 2px 0 0 0;
+  line-height: 1.5;
+}
+.go-section .achievement-detail a {
+  color: #6b8fad;
+  text-decoration: none;
+}
+.go-section .achievement-detail a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="go-section">
+
+<p>
+Outside of research, I am a professional Go (围棋 / weiqi / baduk) player. I earned professional
+certification in China in 2012, at age 14, and have competed in the U.S. since then.
+</p>
+
+<h2>Highlights</h2>
+
+{% for item in site.data.go.achievements %}
+<div class="achievement">
+  <div class="achievement-year">{{ item.year }}</div>
+  <div>
+    <p class="achievement-title">{{ item.title }}</p>
+    {% if item.detail %}
+    <p class="achievement-detail">{{ item.detail }}{% if item.link %} <a href="{{ item.link }}">[{{ item.linktext | default: "link" }}]</a>{% endif %}</p>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+
+</div>

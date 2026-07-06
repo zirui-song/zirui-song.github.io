@@ -15,5 +15,8 @@ main:
   - title: "Notes"
     url: /notes/
 
+  - title: "Go"
+    url: /go/
+
   - title: "CV"
     url: /cv/

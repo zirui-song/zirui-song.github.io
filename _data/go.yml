@@ -1,0 +1,19 @@
+# Go (Weiqi) achievements — add new entries at the top.
+# Fields: year (display string), title, detail (optional), link + linktext (optional)
+
+achievements:
+  - year: "Present"
+    title: "AGA City League — Team New York"
+    detail: "Currently competing in the American Go Association City League with the New York team."
+
+  - year: ""
+    title: "Champion — AGA City League, Team Chicago"
+    detail: "Won the American Go Association City League as part of the Chicago team."
+
+  - year: "2017"
+    title: "U.S. Champion — U.S. Go Congress"
+    detail: "Won the Masters (Open) Division at the 2017 U.S. Go Congress."
+
+  - year: "2012"
+    title: "Professional Go Player"
+    detail: "Certified as a Chinese professional Go player at age 14, with coverage in Chinese media."
