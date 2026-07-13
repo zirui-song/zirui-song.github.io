@@ -36,7 +36,9 @@ Counts can be inflated by ever-finer slicing of otherwise similar deals, so the 
 
 ![Structured-note issuance volume, by bank and in total](/images/structured_notes/sp_notional_trend.png)
 
-(These parsed figures are a lower bound on the true market — they count only deals where the cover-page total is cleanly machine-readable — but the *trend* is unambiguous.) The market is also concentrated: a handful of dealer banks with the derivatives infrastructure to hedge these payoffs account for essentially all of it, while balance-sheet giants like Bank of America and Wells Fargo remain minor issuers.
+(These parsed figures are a lower bound on the true market — they count only deals where the cover-page total is cleanly machine-readable — but the *trend* is unambiguous.) The market is also concentrated: a handful of dealer banks with the derivatives infrastructure to hedge these payoffs account for essentially all of it, while balance-sheet giants like Bank of America and Wells Fargo remain minor issuers *of these registered retail prospectuses*.
+
+**A balance-sheet cross-check.** The prospectus panel measures the *flow* of public 424B2 deals; the same banks' 10-K balance sheets tell the same story from the *stock* side. The long-term debt these dealers carry at fair value — which the filings note is *predominantly* structured notes — rose at every major issuer between year-end 2022 and year-end 2023: Citigroup to $116B (+10%), Morgan Stanley to $94B (+19%), JPMorgan to $88B (+22%), and Goldman Sachs to $86B (+18%). Two wrinkles sharpen rather than blur the picture. Bank of America and Wells Fargo — minor issuers in the registered-prospectus panel — nonetheless carry roughly $43B and $9B of structured debt on their balance sheets, a reminder that "minor issuer" describes the retail prospectus flow this project parses, not the banks' total structured-debt footprint. And UBS's balance-sheet figure jumps on the Credit Suisse acquisition rather than organic issuance. The direction is otherwise uniform: the outstanding stock is growing in step with the prospectus flow.
 
 ## Fact 2: The terms are getting more complex
 
