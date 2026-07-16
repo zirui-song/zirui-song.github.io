@@ -1,4 +1,4 @@
-# Go (Weiqi) achievements — add new entries at the top.
+# Go (Weiqi) achievements and projects — add new entries at the top of each list.
 # Fields: year (display string), title, detail (optional), link + linktext (optional)
 
 achievements:
@@ -25,3 +25,11 @@ achievements:
   - year: "2012"
     title: "Professional Go Player"
     detail: "Certified as a Chinese professional Go player at age 14, with coverage in Chinese media."
+
+# Go-related projects (apps, tools, teaching material).
+# Add `link:` and `linktext:` to turn the title into a link.
+projects:
+  - title: "Life and Death Master"
+    detail: "A Go app for practicing life-and-death (tsumego) problems."
+    link: ""
+    linktext: "App Store"
