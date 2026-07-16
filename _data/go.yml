@@ -30,6 +30,17 @@ achievements:
 # Add `link:` and `linktext:` to turn the title into a link.
 projects:
   - title: "Life &amp; Death Master"
-    detail: "A Go app for practicing life-and-death (tsumego) problems."
-    link: ""
+    detail: "A tsumego (Go life-and-death) trainer: 3,600+ curated problems with spaced-repetition review, spanning beginner to advanced. Free on the App Store."
+    link: "https://apps.apple.com/app/life-death-master/id6757863261"
     linktext: "App Store"
+    screenshots:
+      - image: "go/app_home.png"
+        alt: "Life & Death Master home screen"
+      - image: "go/app_problem.png"
+        alt: "Solving a life-and-death problem"
+      - image: "go/app_browse.png"
+        alt: "Browsing problem sets"
+      - image: "go/app_stats.png"
+        alt: "Progress statistics"
+      - image: "go/app_settings.png"
+        alt: "Settings"
