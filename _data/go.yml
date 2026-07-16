@@ -29,7 +29,7 @@ achievements:
 # Go-related projects (apps, tools, teaching material).
 # Add `link:` and `linktext:` to turn the title into a link.
 projects:
-  - title: "Life and Death Master"
+  - title: "Life &amp; Death Master"
     detail: "A Go app for practicing life-and-death (tsumego) problems."
     link: ""
     linktext: "App Store"
