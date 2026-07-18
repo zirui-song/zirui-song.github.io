@@ -1,0 +1,21 @@
+# Teaching experience — add new entries at the top.
+# Fields: course, role, venue, term, instructor (all display strings)
+
+courses:
+  - course: "15.720 Corporate Financial Accounting (EMBA)"
+    role: "Teaching Assistant"
+    venue: "MIT Sloan"
+    term: "Spring 2026"
+    instructor: "Professor Nemit Shroff"
+
+  - course: "15.511 Corporate Financial Accounting"
+    role: "Teaching Assistant"
+    venue: "MIT Sloan"
+    term: "Summer 2025"
+    instructor: "Professor S.P. Kothari"
+
+  - course: "15.511 Corporate Financial Accounting"
+    role: "Teaching Assistant"
+    venue: "MIT Sloan"
+    term: "Summer 2024"
+    instructor: "Professor S.P. Kothari"
