@@ -28,6 +28,14 @@ redirect_from:
   margin: 0;
   line-height: 1.5;
 }
+.home-section .paper-title a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.home-section .paper-title a:hover {
+  color: #004c99;
+  text-decoration: underline;
+}
 .home-section .paper-authors {
   font-size: 0.85em;
   color: #6b6b6b;
@@ -65,6 +73,25 @@ redirect_from:
   color: #9aabba;
   font-style: italic;
   margin: 3px 0 0 0;
+}
+.home-section .paper-abstract {
+  margin: 4px 0 0 0;
+  font-size: 0.8em;
+}
+.home-section .paper-abstract summary {
+  cursor: pointer;
+  color: #7a9bb5;
+  user-select: none;
+}
+.home-section .paper-abstract summary:hover {
+  color: #5a7a9b;
+  text-decoration: underline;
+}
+.home-section .paper-abstract p {
+  color: #6b6b6b;
+  margin: 4px 0 0 14px;
+  line-height: 1.55;
+  text-align: justify;
 }
 .home-section .teaching-item {
   font-size: 0.9em;
@@ -111,7 +138,7 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 {% assign working_papers = site.research | where: "category", "working_paper" | sort: "date" | reverse %}
 {% for post in working_papers %}
 <div class="paper">
-  <p class="paper-title">"{{ post.title }}"</p>
+  <p class="paper-title">{% if post.ssrnurl %}<a href="{{ post.ssrnurl }}">"{{ post.title }}"</a>{% else %}"{{ post.title }}"{% endif %}</p>
   {% if post.authors %}
   <p class="paper-authors">
     with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
@@ -120,11 +147,14 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
   {% if post.status %}
   <p class="paper-note">{{ post.status }}</p>
   {% endif %}
-  {% if post.ssrnurl %}
-  <p class="paper-links"><a href="{{ post.ssrnurl }}">[SSRN]</a></p>
-  {% endif %}
   {% if post.presentations %}
   <p class="paper-presentations">Presented at: {% for pres in post.presentations %}{{ pres.name }}{% if pres.coauthor %}*{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
+  {% endif %}
+  {% if post.abstract %}
+  <details class="paper-abstract">
+    <summary>Abstract</summary>
+    <p>{{ post.abstract }}</p>
+  </details>
   {% endif %}
 </div>
 {% endfor %}
@@ -134,17 +164,20 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
 {% assign wip_papers = site.research | where: "category", "wip" | sort: "date" | reverse %}
 {% for post in wip_papers %}
 <div class="paper">
-  <p class="paper-title">"{{ post.title }}"</p>
+  <p class="paper-title">{% if post.ssrnurl %}<a href="{{ post.ssrnurl }}">"{{ post.title }}"</a>{% else %}"{{ post.title }}"{% endif %}</p>
   {% if post.authors %}
   <p class="paper-authors">
     with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
-  {% if post.ssrnurl %}
-  <p class="paper-links"><a href="{{ post.ssrnurl }}">[SSRN]</a></p>
-  {% endif %}
   {% if post.presentations %}
   <p class="paper-presentations">Presented at: {% for pres in post.presentations %}{{ pres.name }}{% if pres.coauthor %}*{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
+  {% endif %}
+  {% if post.abstract %}
+  <details class="paper-abstract">
+    <summary>Abstract</summary>
+    <p>{{ post.abstract }}</p>
+  </details>
   {% endif %}
 </div>
 {% endfor %}
