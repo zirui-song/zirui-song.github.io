@@ -33,11 +33,12 @@ author_profile: true
   line-height: 1.5;
 }
 .research-section .paper-title a {
-  color: #3a3a3a;
+  color: #0066cc;
   text-decoration: none;
 }
 .research-section .paper-title a:hover {
-  color: #5a7a9b;
+  color: #004c99;
+  text-decoration: underline;
 }
 .research-section .paper-authors {
   font-size: 0.85em;
@@ -71,6 +72,25 @@ author_profile: true
   font-style: italic;
   margin: 3px 0 0 0;
 }
+.research-section .paper-abstract {
+  margin: 4px 0 0 0;
+  font-size: 0.8em;
+}
+.research-section .paper-abstract summary {
+  cursor: pointer;
+  color: #7a9bb5;
+  user-select: none;
+}
+.research-section .paper-abstract summary:hover {
+  color: #5a7a9b;
+  text-decoration: underline;
+}
+.research-section .paper-abstract p {
+  color: #6b6b6b;
+  margin: 4px 0 0 14px;
+  line-height: 1.55;
+  text-align: justify;
+}
 </style>
 
 <div class="research-section">
@@ -81,7 +101,7 @@ author_profile: true
 {% for post in working_papers %}
 <div class="paper">
   <p class="paper-title">
-    "{{ post.title }}"
+    {% if post.ssrnurl %}<a href="{{ post.ssrnurl }}">"{{ post.title }}"</a>{% else %}"{{ post.title }}"{% endif %}
   </p>
   {% if post.authors %}
   <p class="paper-authors">
@@ -91,11 +111,16 @@ author_profile: true
   {% if post.status %}
   <p class="paper-note">{{ post.status }}</p>
   {% endif %}
-  {% if post.paperurl or post.ssrnurl %}
+  {% if post.paperurl %}
   <p class="paper-links">
-    {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
-    {% if post.ssrnurl %}<a href="{{ post.ssrnurl }}">[SSRN]</a>{% endif %}
+    <a href="{{ post.paperurl }}">[PDF]</a>
   </p>
+  {% endif %}
+  {% if post.abstract %}
+  <details class="paper-abstract">
+    <summary>Abstract</summary>
+    <p>{{ post.abstract }}</p>
+  </details>
   {% endif %}
 </div>
 {% endfor %}
@@ -106,17 +131,18 @@ author_profile: true
 {% for post in wip_papers %}
 <div class="paper">
   <p class="paper-title">
-    "{{ post.title }}"
+    {% if post.ssrnurl %}<a href="{{ post.ssrnurl }}">"{{ post.title }}"</a>{% else %}"{{ post.title }}"{% endif %}
   </p>
   {% if post.authors %}
   <p class="paper-authors">
     with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
-  {% if post.ssrnurl %}
-  <p class="paper-links">
-    <a href="{{ post.ssrnurl }}">[SSRN]</a>
-  </p>
+  {% if post.abstract %}
+  <details class="paper-abstract">
+    <summary>Abstract</summary>
+    <p>{{ post.abstract }}</p>
+  </details>
   {% endif %}
 </div>
 {% endfor %}
