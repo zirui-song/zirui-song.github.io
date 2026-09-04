@@ -2,7 +2,7 @@
 title: "Firms' Leverage Targets"
 category: working_paper
 collection: research
-date: 2025-02-27
+date: 2026-01-01
 ssrnurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7191478'
 abstract: >-
   We construct a dataset of firms' explicit leverage targets from earnings
