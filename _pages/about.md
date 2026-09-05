@@ -29,11 +29,10 @@ redirect_from:
   line-height: 1.5;
 }
 .home-section .paper-title a {
-  color: #0066cc;
+  color: #6b8fad;
   text-decoration: none;
 }
 .home-section .paper-title a:hover {
-  color: #004c99;
   text-decoration: underline;
 }
 .home-section .paper-authors {

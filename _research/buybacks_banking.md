@@ -7,5 +7,7 @@ linkurl: 'https://www.promarket.org/2024/12/12/why-stock-buybacks-increase-finan
 linktext: 'ProMarket'
 authors:
     - name: S.P. Kothari
+      url: https://mitsloan.mit.edu/faculty/directory/s-p-kothari
     - name: Hamid Mehran
+      url: https://cepr.org/about/people/hamid-mehran
 ---

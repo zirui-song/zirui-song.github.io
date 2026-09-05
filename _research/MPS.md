@@ -19,6 +19,7 @@ abstract: >-
   channel by which tax policy affects debt contracting.
 authors:
     - name: Ed Maydew
+      url: https://www.kenan-flagler.unc.edu/faculty/directory/edward-maydew/
     - name: Matt Phillips
       url: https://www.mattphillipsphd.me/
 presentations:
