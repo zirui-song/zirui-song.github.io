@@ -34,4 +34,6 @@ presentations:
       coauthor: true
     - name: RCF-ECGI 2026
       coauthor: true
+    - name: FIFI 2026
+    - name: Private Equity Research Consortium Symposium 2026
 ---
