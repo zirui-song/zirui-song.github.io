@@ -24,4 +24,5 @@ authors:
 presentations:
     - name: MIT Finance Lunch
     - name: 39th Australasian Finance and Banking Conference
+      coauthor: true
 ---
