@@ -29,7 +29,7 @@ redirect_from:
   line-height: 1.5;
 }
 .home-section .paper-title a {
-  color: #6b8fad;
+  color: #3a3a3a;
   text-decoration: none;
 }
 .home-section .paper-title a:hover {
