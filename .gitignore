@@ -11,3 +11,5 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+# Raw profile photo sources (large originals, not served by the site)
+images/Profile Photos 09072026/
