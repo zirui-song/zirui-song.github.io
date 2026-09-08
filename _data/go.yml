@@ -2,9 +2,9 @@
 # Fields: year (display string), title, detail (optional), link + linktext (optional)
 
 achievements:
-  - year: "Present"
-    title: "AGA City League — Team New York"
-    detail: "Currently competing in the American Go Association City League with the New York team."
+  - year: "2026"
+    title: "Champion — AGA City League, Team New York"
+    detail: "Won the American Go Association City League again, this time with the New York team."
 
   - year: ""
     title: "Champion — AGA City League, Team Chicago"
