@@ -61,12 +61,6 @@ redirect_from:
   color: #5a7a9b;
   text-decoration: underline;
 }
-.home-section .paper-presentations {
-  font-size: 0.82em;
-  color: #7a7a7a;
-  margin: 3px 0 0 0;
-  line-height: 1.6;
-}
 .home-section .paper-note {
   font-size: 0.82em;
   color: #9aabba;
@@ -146,9 +140,6 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
   {% if post.status %}
   <p class="paper-note">{{ post.status }}</p>
   {% endif %}
-  {% if post.presentations %}
-  <p class="paper-presentations">Presented at: {% for pres in post.presentations %}{{ pres.name }}{% if pres.coauthor %}*{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
-  {% endif %}
   {% if post.abstract %}
   <details class="paper-abstract">
     <summary>Abstract</summary>
@@ -169,9 +160,6 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
     with {% for author in post.authors %}{% if author.name %}{% if author.url %}<a href="{{ author.url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}
   </p>
   {% endif %}
-  {% if post.presentations %}
-  <p class="paper-presentations">Presented at: {% for pres in post.presentations %}{{ pres.name }}{% if pres.coauthor %}*{% endif %}{% if forloop.last == false %}, {% endif %}{% endfor %}</p>
-  {% endif %}
   {% if post.abstract %}
   <details class="paper-abstract">
     <summary>Abstract</summary>
@@ -180,8 +168,6 @@ My research interests are <strong>Banking</strong>, <strong>Debt Contracting</st
   {% endif %}
 </div>
 {% endfor %}
-
-<p style="font-size: 0.78em; color: #9aabba; margin-top: 0.5em;">* presented by coauthor</p>
 
 {% assign other_work = site.research | where: "category", "other_work" | sort: "date" | reverse %}
 {% if other_work.size > 0 %}
