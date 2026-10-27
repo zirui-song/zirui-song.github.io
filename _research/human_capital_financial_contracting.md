@@ -22,13 +22,30 @@ authors:
       url: https://www.vrindamittal.com/
 presentations:
     - name: MIT Econometrics Clinic 2026
+      coauthor: true
     - name: ISB Summer Conference 2026
       coauthor: true
+    - name: Philadelphia Fed 2026
+      coauthor: true
     - name: Wharton-Chicago-Harvard Insolvency and Restructuring 2026
+      coauthor: true
+    - name: Stability Implications of Nonbank Provision of Financial Services Conference 2026
       coauthor: true
     - name: RCF-ECGI 2026
       coauthor: true
     - name: FIFI 2026
     - name: Private Equity Research Consortium Symposium 2026
+      coauthor: true
+    - name: University of Amsterdam (scheduled)
+      coauthor: true
+    - name: Tilburg (scheduled)
+      coauthor: true
+    - name: Erasmus (scheduled)
+      coauthor: true
+    - name: Georgetown (scheduled)
+      coauthor: true
+    - name: CEPR Paris Symposium 2026 (scheduled)
+      coauthor: true
+    - name: Labor Markets and Financial Markets Workshop, IAB 2026 (scheduled)
       coauthor: true
 ---
