@@ -1,26 +1,20 @@
 ---
-title: "Reshuffling of Human Capital in Financial Intermediation"
+title: "Organization of Human Capital in Corporate Lending"
 category: working_paper
 collection: research
 date: 2026-03-01
 ssrnurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6565278'
 abstract: >-
-  How has private credit reshaped human capital in the financial
-  intermediation sector? We document a large migration of personnel from banks
-  to private credit, accompanied by a substantial reshuffling across functions
-  and hierarchies. Exploiting bank stress tests as a shock that induces
-  outflows, we show that movers to private credit attain higher seniority and
-  compensation and experience lower turnover rates. Private credit firms adopt
-  less hierarchical structures with higher senior-to-junior ratios, and
-  allocate more talent towards due diligence roles. Importantly, senior
-  personnel in private credit are more concentrated in due diligence,
-  contrasting with banks where greater focus is placed on deal sourcing and
-  risk control. Private credit loans feature more monitoring and bespoke
-  contractual terms, and these differences are largely explained by the
-  observed organizational and functional differences. Overall, the growth of
-  private credit has implications for not only a reallocation of financial
-  capital but also a reorganization of human capital into structures that
-  enable more information-sensitive lending.
+  We study how the organization of human capital shapes the provision of
+  information-sensitive lending in private credit (PC) firms. We document the
+  move of credit-related personnel from banks to PC firms over the past
+  decade, with substantial gains in seniority, non-salary compensation, and
+  retention. PC firms with more senior bank-originated personnel lend more to
+  information-sensitive borrowers. Compared with banks, PC firms have flatter
+  hierarchies, higher senior-to-junior ratios, and allocate senior talent to
+  diligence roles. PC loans feature more customized contractual terms and
+  monitoring clauses. Organizational differences between banks and PC firms
+  provide an explanation for these contractual differences.
 authors:
     - name: Young Soo Jang
       url: https://sites.google.com/view/youngsoojang/home
