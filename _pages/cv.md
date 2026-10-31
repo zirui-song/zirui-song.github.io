@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% capture cv_url %}{{ cv_url }}?v={{ site.time | date: '%s' }}{% endcapture %}
+{% capture cv_url %}{{ base_path }}/files/CV.pdf?v={{ site.time | date: '%s' }}{% endcapture %}
 
 <p><a href="{{ cv_url }}">Download CV (PDF)</a></p>
 
