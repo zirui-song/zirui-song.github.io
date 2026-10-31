@@ -9,40 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-<style>
-.archive {
-  font-size: 0.92em;
-  color: #4a4a4a;
-  line-height: 1.7;
-}
-.archive h1 {
-  font-size: 1.2em;
-  color: #5a7a9b;
-  border-bottom: 1px solid #d6e3ed;
-  padding-bottom: 6px;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-}
-</style>
+<p><a href="{{ base_path }}/files/CV.pdf">Download CV (PDF)</a></p>
 
-Education
-======
-* Ph.D in Accounting, Massachusetts Institute of Technology, 2028 (expected)
-* B.S. in Mathematics, Economics (Honors), and Statistics, University of Chicago, 2021
-
-Work experience
-======
-* 2024: Research Assistant
-  * MIT Sloan School of Management
-  * Supervisor: Professor Kerry Siani
-* 2021-2023: Research Professional
-  * University of Chicago Booth School of Business
-  * Supervisors: Professor Christian Leuz and Joao Granja
-
-Skills
-======
-* Python, Stata, R, Julia, MATLAB, LaTeX, Git, Bash, SLURM, SQL
-
-
+<object data="{{ base_path }}/files/CV.pdf" type="application/pdf" width="100%" height="1100px">
+  <p>Your browser can't display the PDF here. <a href="{{ base_path }}/files/CV.pdf">Download it instead</a>.</p>
+</object>
