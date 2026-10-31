@@ -22,7 +22,6 @@ authors:
       url: https://www.vrindamittal.com/
 presentations:
     - name: MIT Econometrics Clinic 2026
-      coauthor: true
     - name: ISB Summer Conference 2026
       coauthor: true
     - name: Philadelphia Fed 2026
