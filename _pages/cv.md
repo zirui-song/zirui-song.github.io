@@ -8,9 +8,10 @@ redirect_from:
 ---
 
 {% include base_path %}
+{% capture cv_url %}{{ cv_url }}?v={{ site.time | date: '%s' }}{% endcapture %}
 
-<p><a href="{{ base_path }}/files/CV.pdf">Download CV (PDF)</a></p>
+<p><a href="{{ cv_url }}">Download CV (PDF)</a></p>
 
-<object data="{{ base_path }}/files/CV.pdf" type="application/pdf" width="100%" height="1100px">
-  <p>Your browser can't display the PDF here. <a href="{{ base_path }}/files/CV.pdf">Download it instead</a>.</p>
+<object data="{{ cv_url }}" type="application/pdf" width="100%" height="1100px">
+  <p>Your browser can't display the PDF here. <a href="{{ cv_url }}">Download it instead</a>.</p>
 </object>
