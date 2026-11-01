@@ -21,5 +21,5 @@ main:
   - title: "Go"
     url: /go/
 
-  - title: "CV"
-    url: /cv/
+  #- title: "CV"
+  #  url: /cv/
